@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-accent: #0d9488;
+  --color-accent-light: #2dd4bf;
+}
+
+.dark {
+  --color-accent: #2dd4bf;
+  --color-accent-light: #5eead4;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased dark:bg-gray-950 dark:text-gray-100;
+}
