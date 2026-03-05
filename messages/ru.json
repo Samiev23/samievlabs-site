@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "brand": "Samiev Labs",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "home": {
+    "title": "Samiev Labs",
+    "subtitle": "Создаю приложения, которые помогают людям жить лучше и продуктивнее.",
+    "ctaProjects": "Проекты",
+    "ctaContact": "Контакты",
+    "featuredTitle": "Featured projects",
+    "allProjects": "Все проекты →",
+    "aboutTitle": "About",
+    "about1": "Разработчик с фокусом на продукты, которые помогают людям заботиться о ментальном здоровье: от простых трекеров до приложений с медитациями и дыхательными практиками.",
+    "about2": "Использую современный стек (React, Next.js, TypeScript, React Native), люблю чистый код и понятный интерфейс.",
+    "techTitle": "Tech stack"
+  },
+  "projects": {
+    "title": "Проекты",
+    "description": "Приложения и веб-сервисы для осознанности, привычек и релаксации."
+  },
+  "contact": {
+    "title": "Контакты",
+    "description": "Есть идея или вопрос? Напишите — с радостью отвечу.",
+    "email": "Email",
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "hint": "Подставьте свои контакты в src/app/[locale]/contact/page.tsx"
+  },
+  "footer": {
+    "copyright": "© {year} Samiev Labs. Все права защищены.",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "aria": {
+    "themeDark": "Включить тёмную тему",
+    "themeLight": "Включить светлую тему",
+    "localeRu": "Русский",
+    "localeEn": "English"
+  }
+}
