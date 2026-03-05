@@ -51,9 +51,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
-  if (!routing.locales.includes(locale)) {
-    notFound();
-  }
+ if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+  notFound()
+}
   setRequestLocale(locale);
 
   const messages = await getMessages();
@@ -69,3 +69,4 @@ export default async function LocaleLayout({ children, params }: Props) {
     </NextIntlClientProvider>
   );
 }
+
