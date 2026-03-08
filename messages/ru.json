@@ -1,11 +1,11 @@
 {
   "nav": {
-    "brand": "Samiev Labs",
+    "brand": "Samiev Labs Tech",
     "projects": "Проекты",
     "contact": "Контакты"
   },
   "home": {
-    "title": "Samiev Labs",
+    "title": "Samiev Labs Tech",
     "subtitle": "Создаю приложения, которые помогают людям жить лучше и продуктивнее.",
     "ctaProjects": "Проекты",
     "ctaContact": "Контакты",
@@ -29,7 +29,7 @@
     "hint": "Подставьте свои контакты в src/app/[locale]/contact/page.tsx"
   },
   "footer": {
-    "copyright": "© {year} Samiev Labs. Все права защищены.",
+    "copyright": "© {year} Samiev Labs Tech. Все права защищены.",
     "projects": "Проекты",
     "contact": "Контакты"
   },

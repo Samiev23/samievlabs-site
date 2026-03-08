@@ -26,13 +26,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: {
       default: isRu
-        ? "Samiev Labs | Студия приложений"
-        : "Samiev Labs | App Studio",
-      template: "%s | Samiev Labs",
+        ? "Samiev Labs Tech | Студия приложений"
+        : "Samiev Labs Tech | App Studio",
+      template: "%s | Samiev Labs Tech",
     },
     description: isRu
-      ? "Samiev Labs — независимая студия приложений, создающая продукты для сна, wellness и ментального благополучия."
-      : "Samiev Labs is an independent app studio building products focused on sleep, wellness and mental clarity.",
+      ? "Samiev Labs Tech — независимая студия приложений, создающая продукты для сна, wellness и ментального благополучия."
+      : "Samiev Labs Tech is an independent app studio building products focused on sleep, wellness and mental clarity.",
     keywords: [
       "portfolio",
       "developer",
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ],
     openGraph: {
       url: siteUrl,
-      siteName: "Samiev Labs",
+      siteName: "Samiev Labs Tech",
     },
     icons: { icon: "/favicon.svg" },
   };
