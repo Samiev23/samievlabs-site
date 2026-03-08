@@ -21,7 +21,7 @@ export function ProjectCard({ project, compact = false }: ProjectCardProps) {
   ) as [string, string][];
 
   return (
-    <article className="flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-soft transition hover:shadow-soft-dark dark:border-gray-800 dark:bg-gray-900 dark:shadow-soft-dark dark:hover:border-gray-700">
+    <article className="flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-soft transition-transform duration-200 hover:-translate-y-1 hover:border-teal-500/60 hover:shadow-soft-dark dark:border-gray-800 dark:bg-gray-900 dark:shadow-soft-dark dark:hover:border-teal-400/60">
       {/* Скрин сверху — плейсхолдер (подставьте свои скриншоты в public/projects/) */}
       <div className="relative aspect-video w-full overflow-hidden bg-gradient-to-br from-teal-100 to-cyan-100 dark:from-gray-800 dark:to-gray-700">
         {imageSrc ? (

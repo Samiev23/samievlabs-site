@@ -25,13 +25,13 @@ export default async function ProjectsPage({ params }: Props) {
   const t = await getTranslations("projects");
 
   return (
-    <div className="px-6 py-16">
+    <div className="px-6 py-16 sm:py-20">
       <div className="mx-auto max-w-6xl">
-        <header className="mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+        <header className="mb-14 text-center sm:mb-16">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
             {t("description")}
           </p>
         </header>

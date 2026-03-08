@@ -14,27 +14,32 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <div>
-      <section className="px-6 py-24 sm:py-32">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-            {t("title")}
-          </h1>
-          <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 sm:text-xl">
-            {t("subtitle")}
-          </p>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/projects"
-              className="rounded-2xl bg-teal-600 px-6 py-3 text-base font-medium text-white shadow-soft transition hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600"
-            >
-              {t("ctaProjects")}
-            </Link>
-            <Link
-              href="/contact"
-              className="rounded-2xl border border-gray-300 bg-white px-6 py-3 text-base font-medium text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 dark:hover:bg-gray-800"
-            >
-              {t("ctaContact")}
-            </Link>
+      <section className="relative overflow-hidden px-6 py-24 sm:py-32">
+        <div className="pointer-events-none absolute inset-x-0 -top-40 -z-10 flex justify-center blur-3xl">
+          <div className="h-72 w-[40rem] bg-gradient-to-tr from-teal-500/40 via-cyan-400/30 to-indigo-500/30 dark:from-teal-400/30 dark:via-cyan-300/20 dark:to-indigo-500/30" />
+        </div>
+        <div className="mx-auto max-w-3xl">
+          <div className="rounded-3xl border border-white/60 bg-white/80 p-10 text-center shadow-soft backdrop-blur-md dark:border-white/10 dark:bg-gray-950/70">
+            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
+              {t("title")}
+            </h1>
+            <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
+              {t("subtitle")}
+            </p>
+            <div className="mt-10 flex flex-wrap justify-center gap-4">
+              <Link
+                href="/projects"
+                className="rounded-2xl bg-teal-600 px-7 py-3 text-base font-medium text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-teal-700 hover:shadow-soft-dark dark:bg-teal-500 dark:hover:bg-teal-400"
+              >
+                {t("ctaProjects")}
+              </Link>
+              <Link
+                href="/contact"
+                className="rounded-2xl border border-gray-300 bg-white px-7 py-3 text-base font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:hover:bg-gray-800"
+              >
+                {t("ctaContact")}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

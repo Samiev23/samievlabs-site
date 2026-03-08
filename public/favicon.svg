@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <rect width="32" height="32" rx="8" fill="#0d9488"/>
   <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-family="system-ui,sans-serif" font-weight="bold">W</text>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0d9488"/>
+  <text x="16" y="22" text-anchor="middle" fill="white" font-size="16" font-family="system-ui,sans-serif" font-weight="bold">W</text>
+</svg>
+>>>>>>> 215fa03 (first commit)
