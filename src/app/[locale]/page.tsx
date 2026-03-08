@@ -20,10 +20,13 @@ export default async function HomePage({ params }: Props) {
         </div>
         <div className="mx-auto max-w-3xl">
           <div className="rounded-3xl border border-white/60 bg-white/80 p-10 text-center shadow-soft backdrop-blur-md dark:border-white/10 dark:bg-gray-950/70">
-            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
+            <div className="inline-flex items-center justify-center rounded-full border border-gray-200/70 bg-white/70 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.28em] text-gray-600 dark:border-white/10 dark:bg-gray-900/70 dark:text-gray-300">
+              Samiev Labs Tech · App Studio
+            </div>
+            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
               {t("title")}
             </h1>
-            <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
+            <p className="mt-5 text-lg text-gray-600 dark:text-gray-300 sm:text-xl">
               {t("subtitle")}
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -46,7 +49,10 @@ export default async function HomePage({ params }: Props) {
 
       <section className="border-t border-gray-200 bg-gray-50/50 px-6 py-20 dark:border-gray-800 dark:bg-gray-900/30">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-12 text-3xl font-bold text-gray-900 dark:text-white">
+          <div className="mb-6 text-sm font-medium uppercase tracking-[0.28em] text-gray-500 dark:text-gray-400">
+            Featured
+          </div>
+          <h2 className="mb-12 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             {t("featuredTitle")}
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -67,7 +73,10 @@ export default async function HomePage({ params }: Props) {
 
       <section className="px-6 py-20">
         <div className="mx-auto max-w-3xl">
-          <h2 className="mb-8 text-3xl font-bold text-gray-900 dark:text-white">
+          <div className="mb-4 text-sm font-medium uppercase tracking-[0.28em] text-gray-500 dark:text-gray-400">
+            Studio
+          </div>
+          <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             {t("aboutTitle")}
           </h2>
           <div className="space-y-4 text-gray-600 dark:text-gray-400">
@@ -79,7 +88,10 @@ export default async function HomePage({ params }: Props) {
 
       <section className="border-t border-gray-200 bg-gray-50/50 px-6 py-20 dark:border-gray-800 dark:bg-gray-900/30">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-12 text-3xl font-bold text-gray-900 dark:text-white">
+          <div className="mb-4 text-sm font-medium uppercase tracking-[0.28em] text-gray-500 dark:text-gray-400">
+            Stack
+          </div>
+          <h2 className="mb-12 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             {t("techTitle")}
           </h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">

@@ -13,7 +13,7 @@ export function Header() {
   const locale = useLocale();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-950/80">
+    <header className="sticky top-0 z-50 border-b border-gray-200/70 bg-white/80 backdrop-blur-xl dark:border-gray-800/80 dark:bg-gray-950/80">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-6">
         <Link
           href="/"
@@ -21,16 +21,16 @@ export function Header() {
         >
           {t("brand")}
         </Link>
-        <nav className="flex flex-1 items-center justify-end gap-2 sm:gap-6">
+        <nav className="flex flex-1 items-center justify-end gap-1.5 sm:gap-4">
           <Link
             href="/projects"
-            className="text-gray-600 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            className="rounded-full px-3 py-1 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800/80 dark:hover:text-white"
           >
             {t("projects")}
           </Link>
           <Link
             href="/contact"
-            className="text-gray-600 transition hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            className="rounded-full px-3 py-1 text-sm font-medium text-gray-600 transition hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800/80 dark:hover:text-white"
           >
             {t("contact")}
           </Link>
